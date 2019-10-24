@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<link href="index.css" type="text/css" rel="stylesheet"
+</head>
+<body>
+  <h1 id="title"> A Bit About You </h1>
+  <p id="description"> Please answer a few questions so I can know a bit about you! </p>
+  <form id="survey-form">
+
+    <label id="name-label"> First and Last Name: </label> <br>
+    <input id= "name" type = "text" name="name"
+    required placeholder="Enter First and Last Name"> <br>
+    <br>
+
+    <label id="email-label">Email:</label> <br>
+    <input id="email" type="email" name="email"
+    required placeholder="Enter Valid Email Address"> <br>
+    <br>
+
+    <label id="number-label"> Age: </label> <br>
+    <input id="number" type="number" name= "age"
+    required placeholder="Enter Age" min="0" max="100"> <br>
+    <br>
+
+
+    <label id="dogsize-label" for=dropdown> Preferred Dog Size </label> <br>
+      <select id="dropdown">
+        <option> Select </option>
+        <option> small </option>
+        <option> medium </option>
+        <option> big </option>
+      </select>
+      <br>
+      <br>
+
+
+    <label id="chip-label"> Favorite Chip Flavor </label> <br>
+    <label id= "Doritos"> Doritos
+        <input type="radio" value="Doritos" name="chip"> <br>
+    </label>
+    <label id="Lays"> Lays
+      <input type="radio" value="Lays" name="chip"> <br>
+    </label>
+    <br>
+
+
+    <label id="sport-label"> Favorite Sports </label><br>
+    <label id="football"> Football
+      <input type="checkbox" value="Football" name="Sports"> <br>
+      </label>
+    <label id="soccer"> Soccer
+      <input type="checkbox" value="soccer" name="Sports"> <br>
+      </label>
+    <label id="golf"> Golf
+      <input type="checkbox" value="Golf" name="Sports"> <br>
+      </label>
+    <label id="tennis"> Tennis
+      <input type="checkbox" value="Tennis" name="sports"> <br>
+      </label>
+      <br>
+
+    <label id="comments-label"> Additional Information </label> <br>
+      <textarea name="comments" id="comments"></textarea><br>
+      <br>
+
+    <div id="button-label">
+      <button type="submit" id="submit"> Submit </button>
+      </div>
+  </form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>
